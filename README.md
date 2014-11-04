@@ -10,7 +10,7 @@
 ### 基础
 
  - [Git 和 GitHub 的使用](Basic/git-and-github.md)
- - [了解 Node.js 以及相关工具]
+ - [了解 Node.js 以及相关工具](Basic/node-and-tools.md)
 
 ### Polymer
 
