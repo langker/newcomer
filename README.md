@@ -20,6 +20,10 @@
 
 ### Polymer
 
+ - [上手](Polymer/getting-started.md)
+ - [生命周期](Polymer/element-lifecycle.md)
+ - [数据绑定](Polymer/data-binding.md)
+
 ### Atom Shell
 
 ### Unity3D
