@@ -12,6 +12,12 @@
  - [Git 和 GitHub 的使用](Basic/git-and-github.md)
  - [了解 Node.js 以及相关工具](Basic/node-and-tools.md)
 
+### 前端基础编程
+
+ - [DOM 消息模型](Web/dom-event-model.md)
+ - [元素状态](Web/element-state.md)
+ - [页面动画](Web/animation.md)
+
 ### Polymer
 
 ### Atom Shell
