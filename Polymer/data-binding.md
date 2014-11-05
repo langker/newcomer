@@ -16,9 +16,103 @@
  - 模板引用(template ref)是什么? 能否单纯使用模板引用技术实现一个树形控件?
  - 如何发起一个自定义消息? 你又会如何在元素中响应这个自定义消息?
  - 如果不通过 `{{}}` 的方式进行绑定, 而是通过 Javascript 动态绑定,该如何实现?
- - 假设我有 `foo = { x: 20, y: 30 }`, 我将 foo 绑定到 Bar 元素中`<Bar value={{foo}}>`.
- 此时如果我改动 foo.x 或者 foo.y 的值, Bar 元素的 fooChanged 是否会触发?
- - 倘若我绑定的 property 是一份 get/set 属性时,对这份 property 的改动如何能够触发 Polymer 的 changed 函数?
+
+### 问题4:
+
+有以下代码:
+
+```html
+<polymer-element name="foo-bar" >
+    <template>
+        {{value.name}} = {{value.data.x}}, {{value.data.y}}
+    </template>
+
+    <script>
+        Polymer({
+            publish: {
+                value: { data: {x: 0, y: 0}, name: 'no name' }
+            },
+
+            valueChanged: function () {
+                console.log("value changed");
+            },
+        });
+    </script>
+</polymer-element>
+
+<body>
+    <template id="my-template" is="auto-binding">
+        <foo-bar value={{foo}}></foo-bar>
+        <button on-click="{{clickAction}}">change</button>
+    </template>
+
+    <script>
+    var tmpl = document.querySelector('#my-template');
+    tmpl.foo = { data: { x: 20, y: 30 }, name: "foobar" }
+    tmpl.clickAction = function ( event ) {
+        tmpl.foo.data.x = 50;
+    }
+    </script>
+
+</body>
+```
+
+当按下 change 按钮的时候, 为什么页面上的元素改变了,而 valueChanged 没有被触发呢? 我要如何才能触发 valueChanged?
+
+### 问题5:
+
+有以下代码:
+
+```html
+<polymer-element name="foo-bar" >
+    <template>
+        foobar = {{value.data.x}}, {{value.data.y}}
+    </template>
+
+    <script>
+        Polymer({
+            publish: {
+                value: { data: { x: 0, y: 0 } }
+            },
+
+            observe: {
+                'value': 'valueChanged',
+            },
+
+            valueChanged: function () {
+                console.log("value changed");
+            },
+        });
+    </script>
+</polymer-element>
+
+<body>
+    <template id="my-template" is="auto-binding">
+        <foo-bar value={{foo}}></foo-bar>
+        <button on-click="{{clickAction}}">change</button>
+    </template>
+
+    <script>
+    var tmpl = document.querySelector('#my-template');
+    tmpl.foo = { x_: 10, y_: 20 };
+    Object.defineProperty(tmpl.foo, 'data', {
+        get: function () {
+            return { x: this.x_, y: this.y_ };
+        },
+        set: function (value) {
+            this.x_ = value.x;
+            this.y_ = value.y;
+        }
+    });
+
+    tmpl.clickAction = function ( event ) {
+        tmpl.foo.data = { x: 50, y: 100 };
+    }
+    </script>
+
+</body>
+```
+当按下 change 按钮的时候, 为什么 valueChanged 没有被触发呢? 我要如何才能触发 valueChanged? 
 
 ## 扩展阅读
 
