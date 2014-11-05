@@ -25,6 +25,7 @@
  - [数据绑定](Polymer/data-binding.md)
  - [定义样式](Polymer/styling-elements.md)
  - [扩展已有元素](Polymer/extending-elements.md)
+ - [工具和其他](Polymer/tools-and-others.md)
 
 ### Atom Shell
 
