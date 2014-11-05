@@ -11,4 +11,3 @@ Polymer 的上手学习可以通过阅读 Polymer 项目文档中的 Getting sta
  - [Shadow DOM](https://www.polymer-project.org/platform/shadow-dom.html)
  - [Shadow DOM 101](http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/)
  - [Custom Elements](https://www.polymer-project.org/platform/custom-elements.html)
- 

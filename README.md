@@ -17,7 +17,7 @@
  - [DOM 消息模型](Web/dom-event-model.md)
  - [元素状态](Web/element-state.md)
  - [页面动画](Web/animation.md)
- 
+
 ### 前端 UI 基础
  - [前端 UI 框架](UI/css-framework.md)
 
@@ -31,6 +31,13 @@
  - [工具和其他](Polymer/tools-and-others.md)
 
 ### Atom Shell
+
+ - [上手](AtomShell/getting-started.md)
+ - [进程间通讯](AtomShell/ipc.md)
+
+### Fireball
+
+ - [上手](Fireball/getting-started.md)
 
 ### Unity3D
 
