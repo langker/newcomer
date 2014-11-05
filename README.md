@@ -23,6 +23,8 @@
  - [上手](Polymer/getting-started.md)
  - [生命周期](Polymer/element-lifecycle.md)
  - [数据绑定](Polymer/data-binding.md)
+ - [定义样式](Polymer/styling-elements.md)
+ - [扩展已有元素](Polymer/extending-elements.md)
 
 ### Atom Shell
 

@@ -18,6 +18,7 @@
  - 如果不通过 `{{}}` 的方式进行绑定, 而是通过 Javascript 动态绑定,该如何实现?
  - 假设我有 `foo = { x: 20, y: 30 }`, 我将 foo 绑定到 Bar 元素中`<Bar value={{foo}}>`.
  此时如果我改动 foo.x 或者 foo.y 的值, Bar 元素的 fooChanged 是否会触发?
+ - 倘若我绑定的 property 是一份 get/set 属性时,对这份 property 的改动如何能够触发 Polymer 的 changed 函数?
 
 ## 扩展阅读
 
