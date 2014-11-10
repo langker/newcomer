@@ -35,9 +35,15 @@
  - [上手](AtomShell/getting-started.md)
  - [进程间通讯](AtomShell/ipc.md)
 
+### 单元测试
+
+ - 参考[Fireball core开发入门教程](https://tower.im/projects/5ddd2d4f1bc24ef58b6fb66a53190150/messages/3ad888e2e0d34b559c25a7eca852d458/)中的步骤七。
+ - 阅读[Javascript 测试框架评估](http://manual.firebox.im/docs/best-practice/javascript-test-framework)，了解现在都有哪些测试框架，并且学习其中的 qunit 有关内容。
+
 ### Fireball
 
  - [上手](Fireball/getting-started.md)
+ - [Fireball core开发入门教程](https://tower.im/projects/5ddd2d4f1bc24ef58b6fb66a53190150/messages/3ad888e2e0d34b559c25a7eca852d458/)
 
 ### Unity3D
 
