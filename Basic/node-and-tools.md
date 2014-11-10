@@ -22,7 +22,8 @@ bower 是我们用于管理页面包的工具,功能与 npm 类似,只是他负�
 
 ### gulp
 
-gulp 是我们用于项目过程中的编译环节的开发工具. 可以通过 http://gulpjs.com/ 学习和使用.
+gulp 是我们用于项目过程中的编译环节的开发工具. 可以通过 http://gulpjs.com/ 学习和使用.  
+也可参考[Fireball core 开发入门教程](https://tower.im/projects/5ddd2d4f1bc24ef58b6fb66a53190150/messages/3ad888e2e0d34b559c25a7eca852d458/)中的步骤五。
 
 ## 练习题
 
