@@ -10,8 +10,9 @@
 ### 基础
 
  - [Git 和 GitHub 的使用](Basic/git-and-github.md)
+ - 阅读《JavaScript高级程序设计》第一至七章（不明白的地方及时提问）
  - [了解 Node.js 以及相关工具](Basic/node-and-tools.md)
- - [JavaScript编程规范](Basic/javascript-codestyle.md)
+ - [JavaScript 编程规范](Basic/javascript-codestyle.md)
 
 ### 前端基础编程
 
