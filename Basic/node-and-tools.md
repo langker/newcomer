@@ -29,7 +29,7 @@ gulp 是我们用于项目过程中的编译环节的开发工具. 可以通过 
 
  1. 请通过 Node.js 搭建一个简单的 Web 服务器 (可以使用 express).
  1. 通过 bower 下载 pixijs.
- 1. 调整 [Pixi](http://www.pixijs.com/examples/) 页面中 Example 18 的源码使其可以运行在你搭建的 web 服务器中.
+ 1. 通过 git 下载 [Pixi Github](https://github.com/GoodBoyDigital/pixi.js) 源码并通过自己搭建的服务器运行源码中的 examples
 
 ## 练习题2
 
