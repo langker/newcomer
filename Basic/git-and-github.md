@@ -13,6 +13,7 @@
 ## 快速上手
 
  - [git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
+ - [git-it互动练习](https://www.github.com/jlord/git-it) 使用命令行完成一个个任务，教你了解 git 基本操作和 github 工作流程。
 
 ## Git 工作流程
 
