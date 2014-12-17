@@ -7,7 +7,7 @@ Node.js 在火盒团队的开发中占有非常重要的地位. 从项目编译,
 ## 安装与学习
 
 火盒项目中使用的是 Node.js v0.11.+ 的版本，Mac/Linux 用户建议通过 http://nodejs.org/dist/ 找到 v0.11.+ 进行安装，Windows 用户由于 gulp 依赖库的一个 bug 请暂时直接从[主页](http://nodejs.org)下载当前的 v0.10 版，如果主页君更新到了 v0.11 请到 http://nodejs.org/dist/ 找到最后一个 v0.10.+ 版本进行安装。  
-Node.js 的学习可以通过 Node.js 官方的文档,以及 [Node School](http://nodeschool.io/).
+Node.js 的学习可以通过 Node.js 官方的文档, 推荐完成[Node School](http://nodeschool.io/)的核心基础课程[learnyounode](https://www.github.com/rvagg/learnyounode)和[stream-adventure](https://www.github.com/substack/stream-adventure)。
 
 ## 相关工具
 
