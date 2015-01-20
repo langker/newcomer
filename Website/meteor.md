@@ -19,6 +19,7 @@ Meteor 是 Fireball 官网目前使用的 webapp 引擎，包括从前端模板�
 - [EventedMind](https://www.eventedmind.com/) Iron Router 作者的教学网站，以视频教程为主，有大量实例讲解。
 - [Meteor Hacks](https://meteorhacks.com/) Kadira.io 作者的教学网站，作者还写了一本推销 Kadira.io 的书[Bulletproof Meteor](https://bulletproofmeteor.com)，专注于 Meteor 优化技巧，值得一看。
 - [Meteor Testing](http://www.meteortesting.com/) 一本写了一半的 Meteor 测试指南。
+- [Meteor Security Essentials](https://github.com/themeteorchef/security-essentials) 学习 Meteor 安全相关的必要知识
 
 ### 实际操作任务
 
