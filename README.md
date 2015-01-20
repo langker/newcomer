@@ -13,6 +13,9 @@
  - 阅读[JavaScript 标准参考教程](http://javascript.ruanyifeng.com/)第一至四章（不明白的地方及时提问）
  - [了解 Node.js 以及相关工具](Basic/node-and-tools.md)
  - [JavaScript 编程规范](Basic/javascript-codestyle.md)
+ 
+ 扩展阅读（英文）
+ - [Eloquent Javascript](http://eloquentjavascript.net/) 用最短的篇幅介绍 Javascript 的特性和推荐的使用方法，强烈推荐阅读。
 
 ### 前端基础编程
 
@@ -22,6 +25,11 @@
 
 ### 前端 UI 基础
  - [前端 UI 框架](UI/css-framework.md)
+ 
+### 网站开发和维护
+
+- [Meteor 学习](Website/meteor.md)
+- [Fireball 网站开发维护手册](https://github.com/fireball-x/fireball-site/blob/master/README.md)
 
 ### Polymer
 
