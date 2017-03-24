@@ -11,7 +11,7 @@
 进行 Git 的安装和使用.
 
 ## 快速上手
-
+ - [Git Tutorial](https://try.github.io) 在线git cli使用，一步一步完成git学习
  - [git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
  - [git-it互动练习](https://www.github.com/jlord/git-it) 使用命令行完成一个个任务，教你了解 git 基本操作和 github 工作流程。
 
